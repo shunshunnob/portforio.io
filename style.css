@@ -174,23 +174,23 @@ svg {
   //  フォントの指定
   @font-face {
     font-family: 'lato-regular' ;
-    src: url(../fonts/Lato-Regular.ttf) format(truetype);
+    src: url(./Lato-Regular.ttf) format(truetype);
   }
   @font-face {
     font-family: 'bradley-hand-itc';
-    src: url(../fonts/bradley-hand-itc.ttf) format(truetype);
+    src: url(./bradley-hand-itc.ttf) format(truetype);
   }
   @font-face {
     font-family: 'cormorantGaramond-semibold';
-    src: url(../fonts/CormorantGaramond-SemiBold.ttf)format(truetype);
+    src: url(./CormorantGaramond-SemiBold.ttf)format(truetype);
   }
   @font-face {
     font-family: 'Yu Gothic Light';
-    src: url(../fonts/yu-gothic-light.ttf)format(truetype);
+    src: url(./yu-gothic-light.ttf)format(truetype);
   }
   @font-face {
     font-family: 'Yu Gothic bold';
-    src: url(../fonts/yu-gothic-bold.ttf)format(truetype);
+    src: url(./yu-gothic-bold.ttf)format(truetype);
   }
   --main-font:'lato-regular',sans-serif;
   --sub-font:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
