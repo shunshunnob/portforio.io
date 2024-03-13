@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB制作・デザイン依頼ならTiice</title>
+    <meta name="description" content="WEBデザイン、WEB制作をフリーランスで行っています。「WEB制作を依頼したい」「WEB制作料金の相場が分からない」といった方ぜひお問い合わせくださいませ♪"/>
+    <meta name="format-detection" content="telephone=no" />
+    
+    <!-- favicon.icoファイル -->
+    <link rel="icon" href="img/favicon.ico" />
+    <!-- favicon.svgファイル -->
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+    <!-- web-clip-icon.pngファイル -->
+    <link rel="apple-touch-icon" href="img/webclip.png" />
+    <!-- ogp -->
+    <meta property="og:site_name" content="Tiice|WEB制作・デザイン" />
+    <meta property="og:url" content="ウェブページのURLを絶対パスで" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="WEB制作・デザイン依頼ならTiice" />
+    <meta property="og:description" content="お問い合わせ依頼ページ"/>
+    <!-- <meta property="og:image" content="シェアされた時の画像1200*630を絶対パスで" /> -->
+    <meta property="og:locale" content="ja_JP" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@ueda_shun_tiice" />
+    <meta name="twitter:description" content="ページの説明"/>
+    <meta name="twitter:image:src" content="Twitterでシェアされた時の画像を絶対パスで" />
+    
+    <link rel="stylesheet" href="css/style.css" />
+    
+    <script src="js/main.js" defer></script>
+    
+    <!-- 以下は場合によって必要 -->
+    <!-- <meta name="robots" content="noindex,nofollow"> -->
+</head>
+<body class="js_body">
+    <header class="ly_header">
+        <div class="ly_header_inner">
+            <div class="bl_header-content">
+                <h1 class="bl_header-content_logo"><a href="index.html"><img src="img/webclip.png" alt="ロゴ" width="165" height="84"></h1><!-- /.bl_headerContent_logo --></a>
+                
+                <nav class="header-nav" id="header-nav">
+                    <ul class="header-nav-list" id="header-nav-list">
+                        <li class="header-nav-item js_about"><a class="hp_hover" href="about.html">About</a></li>
+                        <li class="header-nav-item js_works"><a class="hp_hover" href="works.html">Works</a></li>
+                        <li class="header-nav-item hp_media">Media <span class="hp_accordion_toggle"></span><!-- /.hp_accordion -->
+                            <ul class="header_accordion">
+                                <li class="header_accordion_item"><a href="#" class="hp_hover">BLOG</a><!-- /.hp_hover --></li><!-- /.header_accordion_item -->
+                                <li class="header_accordion_item"><a href="#" class="hp_hover">TWITTER</a><!-- /.hp_hover --></li><!-- /.header_accordion_item -->
+                            </ul><!-- /.header_accordion --></li>
+                        <li class="header-nav-item hp_grycolor js_contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="hamburger close-menu" id="btn-menu">
+                    <span class="hamburger_bar"></span>
+                    <span class="hamburger_bar"></span>
+                    <span class="hamburger_bar"></span>
+                </button>
+            </div><!-- /.bl_headerContent -->
+           
+        </div><!-- /.ly_header_inner -->
+        <div class="un_header-sp-menu js_ham-nav">
+            
+            <nav class="un_header-sp-menu_nav" id="header-sp-nav">
+                <ul class="un_header-sp-menu_nav-list" id="header-sp-nav-list">
+                    <li class="un_header-sp-menu-item js_about"><a href="about.html">ABOUT</a></li>
+                    <li class="un_header-sp-menu-item js_works"><a href="works.html">WORKS</a></li>
+                    <li class="un_header-sp-menu-item js_contact"><a href="contact.html">CONTACT</a></li>
+                    <li class="un_header-sp-menu-item js_media js_has-child"> MEDIA <span class="un_header-sp-menu-item_toggle"></span><!-- /.un_header-sp-menu-item_toggle -->
+                        <ul class="un_header-sp-menu-item_accordion js_accordion">
+                            <li class="un_header-sp-menu-item_accordion-menu"><a href="#">BLOG </a></li><!-- /.un_header-sp-menu-item_accordion-menu -->
+                            <li class="un_header-sp-menu-item_accordion-menu"><a href="#">TWITTER</a></li><!-- /.un_header-sp-menu-item_accordion-menu -->
+                        </ul><!-- /.un_header-sp-menu-item_accordion -->
+                    </li>
+                </ul>
+                <p class="un_header-sp-menu_copy"><small>&copy; Tiice All rights reserved</small></p>
+            </nav>
+    
+        </div><!-- /.un_header-sp-menu -->
+      </header><!-- /.ly_header -->
+  <main class="ly_contact-main">
+    <div class="ly_sm-inner">
+        <h2 class="el_contact-ttl hp_mt8vw hp_fz9vw">Contact</h2><!-- /.el_contact-ttl -->
+        <form  action="PHP/contact.php" class="un_contact-form" method="post">
+            <dl class="bl_simple-form_list">
+        <!-- <div class="un_request-details"> -->
+            <dt class="un_request-details_ttl"><span class="un_request-detail_indent"></span><!-- /.un_request-detail_indent -->ご依頼内容</dt><!-- /.un_request-details_ttl --><span class="el_form-label el_form-label__required hp_request-position">必須</span><!-- /.el_form-name_required -->
+              <dd class="un_request-details">
+                <ul class="un_request-details_list">
+                  <li class="un_request-details_item">
+                    <input type="checkbox" name="content" value="" class="un_request-details_checkbox"  />
+                    <label for="design-only" class="el_checkbox">デザインのみ</label>
+                  </li>
+                  <li class="un_request-details_item">
+                    <input type="checkbox" name="content" value="" class="un_request-details_checkbox"  />
+                    <label for="coding-only" class="el_checkbox">コーディングのみ</label>
+                  </li>
+                  <li class="un_request-details_item">
+                    <input type="checkbox" name="content" value="" class="un_request-details_checkbox"  />
+                    <label for="renewal" class="el_checkbox">既存サイトのリニューアル</label>
+                  </li>
+                  <li class="un_request-details_item">
+                    <input type="checkbox" name="content" value="" class="un_request-details_checkbox"  />
+                    <label for="new-create" class="el_checkbox">新規サイト制作</label>
+                  </li>
+                  <li class="un_request-details_item">
+                    <input type="checkbox" name="content" value="" class="un_request-details_checkbox"  />
+                    <label for="banner" class="el_checkbox">バナー作成</label>
+                  </li>
+                  <li class="un_request-details_item">
+                    <input type="checkbox" name="content" value="" class="un_request-details_checkbox"  />
+                    <label for="ec-site" class="el_checkbox">ECサイト</label>
+                  </li>
+                  <li class="un_request-details_item">
+                      <input type="checkbox" name="content" value="" class="un_request-details_checkbox"  />
+                      <label for="WordPress" class="el_checkbox">WordPressサイト</label>
+                    </li>
+                    <li class="un_request-details_item">
+                      <input type="checkbox" name="content" value="" class="un_request-details_checkbox"  />
+                      <label for="lp" class="el_checkbox">LP(ランディングページ)</label>
+                    </li>
+                    <li class="un_request-details_item">
+                        <input type="checkbox" name="content" value="" class="un_request-details_checkbox"  />
+                        <label for="sp-tb" class="el_checkbox">スマホ・タブレット対応</label>
+                    </li>
+                    <li class="un_request-details_item">
+                    <input type="checkbox" name="content" value="" class="un_request-details_checkbox"  />
+                    <label for="retouch" class="el_checkbox">部分的な修正</label>
+                  </li>
+                </ul>
+              </dd>
+        
+            <dt class="un_inquiry_ttl un_inquiry"><span class="un_inquiry_indent"></span><!-- /.un_request-detail_indent -->ご依頼の詳細</dt><span class="el_form-label el_form-label__any hp_inquiry-position">任意</span><!-- / -->
+                  <dd class="contact_form-inquiry_dd">
+                    <textarea class="un_inquiry_textarea"  name="inquiry" placeholder="依頼内容をこちらに記載"></textarea>
+                  </dd>
+                <p class="un_inquiry_caution">※制作についてご不明な点やお困りな点に関しましてもこちらにご記入ください</p><!-- /.un_inquiry_caution -->
+        
+       
+            <dt class="un_contact-address_ttl un_contact-address hp_mt15vw"><span class="un_contact-address_indent"></span><!-- /.un_contact-address_indent -->ご連絡先</dt><!-- /.un_contact-address_ttl -->
+            <dt class="el_form-name_ttl hp_mt5vw"> お名前<span class="el_form-label el_form-label__required">必須</span></dt>
+            <dd class="el_form-name_dd">
+              <input type="text" class="el_form-name_input" name="your-name" placeholder="例）山田 太郎" />
+            </dd>
+          <dt class="el_form-email_ttl">メールアドレス<span class="el_form-label el_form-label__required">必須</span></dt>
+          <dd class="el_form-email_dd">
+              <input type="email" class="el_form-email_input" name="your-email" placeholder="例）name@example.com" />
+          </dd>
+          <dt class="el_form-email_ttl">メールアドレス(確認用)<span class="el_form-label el_form-label__required">必須</span></dt>
+          <dd class="el_form-email_dd">
+              <input type="email" class="el_form-email_input" name="your-email2" placeholder="例）name@example.com" />
+          </dd>
+          <dt class="el_form-phone-number_ttl">電話番号<span class="el_form-label el_form-label__any">任意</span></dt>
+            <dd class="contact_form-tel_dd">
+              <input type="tel" class="el_form-phone-number_input" name="tel" placeholder="例）090-1234-5678"/>
+            </dd>
+        </dl>
+            <button class="el_send-btn hp_mt15vw hp_mb25vw"><input type="submit" class="button" value="送信する"></button><!-- /.el_send-btn -->
+        
+        </form><!-- /.un_contact-form -->
+        <footer>
+            <div class="bl_fotter-wrapper ">
+                <p class="hp_tac"><small>&copy; Tiice All rights reserved.</small></p>
+            </div>
+        </footer>
+    </div><!-- /.ly_sm-inner -->
+  </main><!-- /.ly_contact-main -->
+  
+</body>
+</html>
